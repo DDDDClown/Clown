@@ -6,4 +6,22 @@ echo '<br>';
 echo strlen("qwe!") ;
 echo '<br>';
 echo strpos("qwe","w");
+echo '<br>';
+$x=30;
+if ($x>"20");
+{
+	echo "time to go!";
+}
+echo '<br>';
+	$y='e';
+switch($y)
+{
+	case'a':echo('1');
+	break;
+	case'b':echo('2');
+	break;
+	case'c':echo('3');
+	break;
+	default:echo('4');
+}
  ?>
