@@ -1,0 +1,9 @@
+<?php	
+$txt1="Hello world!"; 
+$txt2="What a nice day!"; 
+echo $txt1 . " ". $txt2;
+echo '<br>';
+echo strlen("qwe!") ;
+echo '<br>';
+echo strpos("qwe","w");
+ ?>
