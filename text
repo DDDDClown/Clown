@@ -1,20 +1,20 @@
 <?php	
 $txt1="Hello world!"; 
 $txt2="What a nice day!"; 
-echo $txt1 . " ". $txt2;
+echo $txt1 . " ". $txt2;//..连接符中间的""可输入空格或标点
 echo '<br>';
-echo strlen("qwe!") ;
+echo strlen("qwe!") ;//字符串长度
 echo '<br>';
-echo strpos("qwe","w");
+echo strpos("qwe","w");//W在第几个字符位
 echo '<br>';
 $x=30;
-if ($x>"20");
+if ($x>"20");//判断   if...else if....else(是.或.非)
 {
 	echo "time to go!";
 }
 echo '<br>';
 	$y='e';
-switch($y)
+switch($y)//检索匹配case
 {
 	case'a':echo('1');
 	break;
@@ -23,5 +23,13 @@ switch($y)
 	case'c':echo('3');
 	break;
 	default:echo('4');
+	echo'<br>'
+	$cars=array("Volvo","BMW","Toyota");
+$arrlength=count($cars);//长度
+ 
+for($x=0;$x<$arrlength;$x++)//第一个；小于长度；返回加1
+{
+    echo $cars[$x];
+    echo "<br>";
 }
  ?>
