@@ -31,5 +31,13 @@ for($x=0;$x<$arrlength;$x++)//第一个；小于长度；返回加1
 {
     echo $cars[$x];
     echo "<br>";
+	$yers=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");	
+    sort($yers);//字符串长度升序
+    rsort($yers);//字符串长度降序
+    asort($yers);//值升序
+    arsort($yers);//值升序
+    ksort($yers);//键字符长度升序
+    krsort($yers);//键字符长度降序
+    print_r($yers);//最后输出键降序
 }
  ?>
