@@ -40,4 +40,5 @@ for($x=0;$x<$arrlength;$x++)//第一个；小于长度；返回加1
     krsort($yers);//键字符长度降序
     print_r($yers);//最后输出键降序
 }
+//循环语句 for (初始值; 条件; 增量){ 要执行的代码;}      foreach ($array（？） as $value){要执行代码;}
  ?>
