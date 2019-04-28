@@ -1,0 +1,19 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<font size=5>
+<?php
+function printbold($inputtext)
+{
+	print("<B>".$inputtext."</B>");//定义了printbold里的字符加重
+}
+    print("加重<br>\n");
+    printbold("加重！");
+    print("<br>\n");
+    print("没加重！<br>\n");		
+?>
+</font>
+</BODY>
+</HTML> 
