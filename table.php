@@ -6,13 +6,13 @@
 <BODY>
 <?php
 print("<table bgcolor='ffccoo'border=\"1\">\n");
-	for($row=1; $row<=12;$row ++)
+	for($row=1; $row<=13;$row ++)
 		{
 	print("<tr>\n");
-	for($column=1;$column<=12;$column ++)
+	for($column=1;$column<=13;$column ++)
 		{
 	print("<td>");
-	print($row*$column);
+	print("13");
 	print("</td>");
 	}
 	print("</tr>\n");
