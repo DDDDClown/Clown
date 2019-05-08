@@ -24,7 +24,7 @@ $B = new text('123','345'); //new实例化对象变量
 $C = new text('234','456');
 $D = new text('aaa','bbb');
 
-$B->geturl();
+$B->geturl(); //->跳转至该名称的内容
 $C->geturl();
 $D->geturl();
 
