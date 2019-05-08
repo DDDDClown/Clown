@@ -1,7 +1,7 @@
 <?php
 class text{
 	var $url;
-	var $title;
+	var $title;  //var类变量声明
 	
 	function __construct($par1,$par2){
 		$this->url = $par1;
@@ -20,7 +20,7 @@ class text{
 		echo $this->title . PHP_EOL;
 	}	   
 }
-$B = new text('123','345');
+$B = new text('123','345'); //new实例化对象变量
 $C = new text('234','456');
 $D = new text('aaa','bbb');
 
