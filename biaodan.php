@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$n = test_input($_POST["name"]);
 	$e = test_input($_POST["email"]);
 	$w = test_input($_POST["website"]);
-	$c = test_input($_PSOT["comment"]);
+	$c = test_input($_POST["comment"]);
 	$g = test_input($_POST["gender"]);
 }
 function test_input($data)
