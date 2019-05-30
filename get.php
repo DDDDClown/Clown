@@ -12,3 +12,13 @@
 	</form>	
 	</body>
 </html>
+
+
+
+///提交至一下php脚本
+<?php
+echo $_GET["a"];
+?>是
+<?php
+echo $_GET["b"];
+?>
