@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+<?php
+print("pi=".pi());
+print("<br>");
+print("sin(0.5*pi())=".sin(0.5*pi()));
+print("<br>");
+print("cos(2*pi())=".cos(2*pi()));
+print("<br>");
+	for($index=0;$index<100;$index++)//随机打印100个1-100内的随机数
+		{
+			print(rand(1,100)."<br>\n");
+		}		
+?>
+</body>
+</html>
