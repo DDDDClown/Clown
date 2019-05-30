@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-$n= $e = $g = $c = $w= "";
+$n= $e = $g = $c = $w= "";//设置空值
 
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
