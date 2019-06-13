@@ -1,6 +1,6 @@
 <html>
 <head>
-<mate charset="utf-8">	
+<meta charset="utf-8">	
 <title></title>	
 </head>	
 <body>	
